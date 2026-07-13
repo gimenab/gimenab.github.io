@@ -2,10 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=Gimena-Fernandez-CV.pdf">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gimena Fernández — CV</title>
+  <meta name="description" content="Project Manager | Agile Delivery | Digital Products. CV of Gimena Fernández.">
+  <meta property="og:title" content="Gimena Fernández — CV">
+  <meta property="og:description" content="Project Manager | Agile Delivery | Digital Products. View the CV online (PDF).">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gimenab.github.io/cv/">
+  <style>
+    html, body { height: 100%; margin: 0; font-family: system-ui, "Segoe UI", Arial, sans-serif; }
+    header {
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+      padding: 10px 16px; background: #f3f2ef; border-bottom: 1px solid #d6d3cf;
+    }
+    header h1 { font-size: 1rem; margin: 0; font-weight: 600; }
+    header a { font-size: .9rem; color: #0a66c2; }
+    .frame { height: calc(100% - 45px); }
+    .frame object { width: 100%; height: 100%; }
+    .fallback { padding: 2.5rem 1.5rem; text-align: center; font-size: 1.05rem; }
+  </style>
 </head>
 <body>
-  <p><a href="Gimena-Fernandez-CV.pdf">Gimena Fernández — CV (PDF)</a></p>
+  <header>
+    <h1>Gimena Fernández — CV</h1>
+    <a href="Gimena-Fernandez-CV.pdf">Open PDF</a>
+  </header>
+  <div class="frame">
+    <object data="Gimena-Fernandez-CV.pdf" type="application/pdf">
+      <p class="fallback"><a href="Gimena-Fernandez-CV.pdf">View the CV (PDF)</a></p>
+    </object>
+  </div>
 </body>
 </html>
